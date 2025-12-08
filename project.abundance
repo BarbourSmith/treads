@@ -145,6 +145,18 @@
       },
       "unitsKey": "Unitless",
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Import",
+      "x": 0.3943285179240235,
+      "y": 0.30201342281879195,
+      "uniqueID": "id-35",
+      "fileName": "treads_only_srf.stp",
+      "name": "Import",
+      "type": "STEP",
+      "repoOwner": "tristan-huber",
+      "repoName": "treads",
+      "SVGwidth": 10
     }
   ],
   "allConnectors": [
