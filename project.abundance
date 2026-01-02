@@ -19,36 +19,12 @@
       "uniqueID": "id-2"
     },
     {
-      "atomType": "Import",
-      "x": 0.2113429641519529,
-      "y": 0.33557046979865773,
-      "uniqueID": "id-4",
-      "fileName": "treads_only_split.svg",
-      "name": "Import",
-      "type": "SVG",
-      "repoOwner": "tristan-huber",
-      "repoName": "treads",
-      "SVGwidth": 100
-    },
-    {
       "atomType": "Input",
       "x": 0.025384615384615384,
       "y": 0.15384615384615385,
       "uniqueID": "id-6",
       "name": "Input (1)",
       "type": "number"
-    },
-    {
-      "atomType": "Import",
-      "x": 0.2081326912787587,
-      "y": 0.5794183445190156,
-      "uniqueID": "id-9",
-      "fileName": "treads_only.stp",
-      "name": "Import",
-      "type": "STEP",
-      "repoOwner": "tristan-huber",
-      "repoName": "treads",
-      "SVGwidth": 10
     },
     {
       "atomType": "CutLayout",
@@ -81,6 +57,22 @@
             }
           }
         ]
+      ]
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.4922418405564473,
+      "y": 0.8098434004474273,
+      "uniqueID": "id-70",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 300
+        },
+        {
+          "name": "y length",
+          "ioValue": 10
+        }
       ]
     },
     {
@@ -178,35 +170,6 @@
       },
       "unitsKey": "Unitless",
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Import",
-      "x": 0.4018191546281434,
-      "y": 0.6554809843400448,
-      "uniqueID": "id-68",
-      "fileName": "treads_only_srf.stp",
-      "name": "Import",
-      "type": "STEP",
-      "repoOwner": "tristan-huber",
-      "repoName": "treads",
-      "SVGwidth": 10
-    },
-    {
-      "atomType": "Rectangle",
-      "x": 0.4922418405564473,
-      "y": 0.8098434004474273,
-      "uniqueID": "id-70",
-      "ioValues": [
-        {
-          "name": "x length",
-          "ioValue": 300
-        },
-        {
-          "name": "y length",
-          "ioValue": 10,
-          "currentEquation": "10"
-        }
-      ]
     },
     {
       "atomType": "GitHubMolecule",
