@@ -27,40 +27,6 @@
       "type": "number"
     },
     {
-      "atomType": "CutLayout",
-      "x": 0.5858747993579454,
-      "y": 0.3131991051454138,
-      "uniqueID": "id-43",
-      "name": "Cut Layout",
-      "ioValues": [
-        {
-          "name": "Sheet Width",
-          "ioValue": 96,
-          "currentEquation": "96"
-        },
-        {
-          "name": "Sheet Height",
-          "ioValue": 48
-        },
-        {
-          "name": "Part Padding",
-          "ioValue": 0.4
-        }
-      ],
-      "placements": [
-        [
-          {
-            "id": 0,
-            "rotate": 0,
-            "translate": {
-              "x": 0,
-              "y": 0
-            }
-          }
-        ]
-      ]
-    },
-    {
       "atomType": "Rectangle",
       "x": 0.4922418405564473,
       "y": 0.8098434004474273,
@@ -303,6 +269,18 @@
       },
       "unitsKey": "MM",
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Import",
+      "x": 0.19957196361690743,
+      "y": 0.46085011185682323,
+      "uniqueID": "id-138",
+      "fileName": "all_treads.stp",
+      "name": "Import",
+      "type": "STEP",
+      "repoOwner": "tristan-huber",
+      "repoName": "treads",
+      "SVGwidth": 10
     }
   ],
   "allConnectors": [
@@ -315,11 +293,6 @@
       "ap2Name": "geometry",
       "ap1ID": "id-110",
       "ap2ID": "id-115"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-110",
-      "ap2ID": "id-43"
     },
     {
       "ap2Name": "yDist",
