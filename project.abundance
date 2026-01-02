@@ -200,6 +200,18 @@
       "repoOwner": "tristan-huber",
       "repoName": "treads",
       "SVGwidth": 10
+    },
+    {
+      "atomType": "Import",
+      "x": 0.3739967897271268,
+      "y": 0.6152125279642058,
+      "uniqueID": "id-110",
+      "fileName": "test_2.stp",
+      "name": "Import",
+      "type": "STEP",
+      "repoOwner": "tristan-huber",
+      "repoName": "treads",
+      "SVGwidth": 10
     }
   ],
   "allConnectors": [],
