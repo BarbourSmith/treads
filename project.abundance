@@ -589,13 +589,13 @@
         },
         {
           "name": "Cut Through",
-          "ioValue": 2.5,
-          "currentEquation": "2.5"
+          "ioValue": 3,
+          "currentEquation": "3"
         },
         {
           "name": "Part Name",
-          "ioValue": "treads",
-          "currentEquation": "treads"
+          "ioValue": "Treds Full Sheet",
+          "currentEquation": "Treds Full Sheet"
         }
       ],
       "partName": "treads",
