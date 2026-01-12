@@ -603,8 +603,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.7578125,
-      "y": 0.6398809523809524,
+      "x": 0.7572751322751322,
+      "y": 0.6323119777158774,
       "uniqueID": "id-463",
       "ioValues": [
         {
@@ -837,6 +837,36 @@
       },
       "unitsKey": "Unitless",
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Export",
+      "x": 0.8201058201058202,
+      "y": 0.39275766016713093,
+      "uniqueID": "id-536",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STL",
+          "currentEquation": "STL"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "treads",
+          "currentEquation": "treads"
+        }
+      ],
+      "type": null,
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "treads"
     }
   ],
   "allConnectors": [
@@ -889,6 +919,11 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-463",
       "ap2ID": "id-2"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-463",
+      "ap2ID": "id-536"
     },
     {
       "ap2Name": "geometry",
