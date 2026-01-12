@@ -222,8 +222,8 @@
         },
         {
           "name": "Part Name",
-          "ioValue": "Treds Smaller",
-          "currentEquation": "Treds Smaller"
+          "ioValue": "Treds Smaller Just Edge",
+          "currentEquation": "Treds Smaller Just Edge"
         }
       ],
       "partName": "treads",
@@ -840,8 +840,8 @@
     },
     {
       "atomType": "Export",
-      "x": 0.8201058201058202,
-      "y": 0.39275766016713093,
+      "x": 0.8994708994708994,
+      "y": 0.38718662952646243,
       "uniqueID": "id-536",
       "ioValues": [
         {
@@ -867,6 +867,56 @@
       "resolution": 96,
       "importIndex": 0,
       "partName": "treads"
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.6653439153439153,
+      "y": 0.34540389972144847,
+      "uniqueID": "id-541",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 200,
+          "currentEquation": "200"
+        },
+        {
+          "name": "y length",
+          "ioValue": 2000,
+          "currentEquation": "2000"
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.7215608465608465,
+      "y": 0.20612813370473537,
+      "uniqueID": "id-545",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 19
+        }
+      ]
+    },
+    {
+      "atomType": "Intersection",
+      "x": 0.8326719576719576,
+      "y": 0.28969359331476324,
+      "uniqueID": "id-549",
+      "ioValues": [
+        {
+          "name": "geometry1",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "geometry2",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -911,11 +961,6 @@
       "ap2ID": "id-463"
     },
     {
-      "ap2Name": "geometry",
-      "ap1ID": "id-463",
-      "ap2ID": "id-237"
-    },
-    {
       "ap2Name": "number or geometry",
       "ap1ID": "id-463",
       "ap2ID": "id-2"
@@ -924,6 +969,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-463",
       "ap2ID": "id-536"
+    },
+    {
+      "ap2Name": "geometry2",
+      "ap1ID": "id-463",
+      "ap2ID": "id-549"
     },
     {
       "ap2Name": "geometry",
@@ -939,6 +989,21 @@
       "ap2Name": "shape",
       "ap1ID": "id-274",
       "ap2ID": "id-328"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-541",
+      "ap2ID": "id-545"
+    },
+    {
+      "ap2Name": "geometry1",
+      "ap1ID": "id-545",
+      "ap2ID": "id-549"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-549",
+      "ap2ID": "id-237"
     }
   ],
   "unitsKey": "MM",
