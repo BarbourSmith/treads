@@ -222,8 +222,8 @@
         },
         {
           "name": "Part Name",
-          "ioValue": "Treds Retry 1",
-          "currentEquation": "Treds Retry 1"
+          "ioValue": "Treds Retry 2",
+          "currentEquation": "Treds Retry 2"
         }
       ],
       "partName": "treads",
