@@ -222,8 +222,8 @@
         },
         {
           "name": "Part Name",
-          "ioValue": "Treds Retry 2",
-          "currentEquation": "Treds Retry 2"
+          "ioValue": "Treds Retry 3",
+          "currentEquation": "Treds Retry 3"
         }
       ],
       "partName": "treads",
@@ -296,7 +296,7 @@
             "id": 10,
             "rotate": 180,
             "translate": {
-              "x": -500,
+              "x": 391,
               "y": 167.11866209938438
             }
           },
@@ -312,15 +312,15 @@
             "id": 12,
             "rotate": 0,
             "translate": {
-              "x": -850,
-              "y": 335
+              "x": 401,
+              "y": 710
             }
           },
           {
             "id": 5,
             "rotate": 0,
             "translate": {
-              "x": 394.0698087212103,
+              "x": -500,
               "y": 1040.6038414639768
             }
           },
@@ -971,8 +971,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.1044973544973545,
-      "y": 0.6434540389972144,
+      "x": 0.8478835978835979,
+      "y": 0.520891364902507,
       "uniqueID": "id-582",
       "name": "Center_XY",
       "ioValues": [
